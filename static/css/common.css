@@ -7,7 +7,6 @@ button, select, textarea {
     font: 12px/22px "\5B8B\4F53", Arial, Helvetica, sans-serif;
 }
 
-/*去掉列表默认样式*/
 ol, ul, li {
     list-style: none;
 }

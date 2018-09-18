@@ -1,6 +1,9 @@
 import os
+import sys
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+sys.path.insert(0, os.path.join(BASE_DIR, 'apps'))
 
 SECRET_KEY = '-ddw-x(k4qu!-9m*ux^tmho+3npq$i(7_s*d!6_k66wibrm)!e'
 

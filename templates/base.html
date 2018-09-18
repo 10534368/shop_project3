@@ -4,13 +4,16 @@
     <meta charset="UTF-8">
     <title>{% block title %}{% endblock %}</title>
     <script></script>
+    <link href="/static/css/common.css" rel="stylesheet" type="text/css">
     <script src="https://cdn.bootcss.com/jquery/3.1.0/jquery.js"></script>
-    {% block css %}
+    {% block page_css %}
 
     {% endblock %}
+
     {% block page_jq %}
 
     {% endblock %}
+
 </head>
 <body>
 <div id="warp">
@@ -27,5 +30,6 @@
         {% endblock %}
     </div>
 </div>
+
 </body>
 </html>
